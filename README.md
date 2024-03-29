@@ -19,8 +19,11 @@
    Before getting started, make sure you have the following installed:
 
      Python 3.x
+
      Django
+
      Celery
+     
      RabbitMQ (or another message broker compatible with Celery)
 
 # Installation
@@ -44,10 +47,13 @@
    pip install -r requirements.txt
 
 * Apply database migrations:
+
    python3 manage.py makemigrations
+
    python3 manage.py migrate
 
 * Create a superuser for administrative access:
+
    python3 manage.py createsuperuser
 
 * Start the development server:
@@ -68,6 +74,7 @@
 
 # Endpoints
   Access the website at http://localhost:8000/swagger
+
   Access SMTP server website at http://localhost:3000
 
 
