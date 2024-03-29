@@ -22,8 +22,10 @@
 
      Django
 
+     Django rest framework
+
      Celery
-     
+
      RabbitMQ (or another message broker compatible with Celery)
 
 # Installation
@@ -85,7 +87,7 @@
   This project is licensed under the MIT License - see the LICENSE file for details.
 
 # Acknowledgments
-  Special thanks to the contributors and maintainers of Django, Celery, and other open-source libraries used in this project.
+  Special thanks to the contributors and maintainers of Django, Django rest framework, Celery, and other open-source libraries used in this project.
 
 # THANKS FOR VISITING
 
